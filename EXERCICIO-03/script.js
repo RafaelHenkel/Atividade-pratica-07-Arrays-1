@@ -9,3 +9,17 @@
 // array
 // e. Utilize o método shift para remover a primeira fruta do array
 // f. Exiba o array resultante na tela
+
+let frutas = ["banana", "abacaxi", "uva"];
+
+frutas.push("morango");
+document.write(frutas, "<br>");
+
+frutas.pop();
+document.write(frutas, "<br>");
+
+frutas.unshift("mamão");
+document.write(frutas, "<br>");
+
+frutas.shift();
+document.write(frutas);
